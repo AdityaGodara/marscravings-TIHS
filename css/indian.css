@@ -1,0 +1,54 @@
+*{
+	margin: 5px;
+}
+
+.heading{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	color: black;
+	letter-spacing: 2px;
+	margin-left: 30px;
+	overflow: hidden;
+	padding-top: 40px}
+h1{
+	animation-name: wipe;
+	animation-duration: 1s;
+}
+button{
+	border:none;
+	background-color: white;
+}
+@keyframes wipe{
+	0%{opacity: 0; margin-top: -50px;}
+	50%{opacity: 60%; margin-top: 50px;}
+	50%{opacity: 100%; margin-top: 40px;}
+}
+.tag{
+	color: white;
+	align-items: center;
+}
+.tag1{
+	color: black;
+	align-items: center;
+}
+
+#nav{
+		color: black;
+		text-decoration: none;
+		margin-left: -50px;
+
+	}
+
+#nav {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    padding: 10px 10px 10px 10px;
+}
+
+#nav:hover, #nav:focus {
+    background-size: 100% 2px;
+}
